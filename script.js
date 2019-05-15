@@ -1,5 +1,8 @@
 // jshint esversion:6
+const _ = require("lodash");
 
+var array = [1,2,3,4,5,6,7,8];
+console.log("answer", _.without(array, 3));
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
@@ -18,7 +21,7 @@ function randomColor() {
   let letters = "0123456789ABCDEF";
   let color = "#";
 
-  for (var i = 0; i < 6; i++) {
+  for (let i = 0; i < 6; i++) {
     color += letters[Math.floor(Math.random() * 16)];
   }
 
@@ -39,3 +42,5 @@ button.addEventListener("click", randomGradient);
 color1.addEventListener("input", setGradient);
 
 color2.addEventListener("input", setGradient);
+
+const hello = () => alert("Hello World");

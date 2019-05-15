@@ -1,0 +1,23 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlie-fitzgerald/Background-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/charlie-fitzgerald/Background-Generator/issues"
+  },
+  "homepage": "https://github.com/charlie-fitzgerald/Background-Generator#readme",
+  "description": ""
+}
